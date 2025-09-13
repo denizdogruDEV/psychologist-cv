@@ -410,3 +410,10 @@ body {
         height: 350px;
     }
 }
+
+.chat-button.whatsapp {
+  background: #25D366; /* WhatsApp green */
+}
+.chat-button.whatsapp:hover {
+  background: #1ebe5b;
+}

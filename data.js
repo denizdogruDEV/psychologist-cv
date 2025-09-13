@@ -2,7 +2,7 @@
 const cvData = {
   personalInfo: {
     name: "Merve Ulcay",
-    title: "Ph.D. Clinical Psychologist",
+    title: "Psikolog",
     profileImage: "images/profile.png",
     bio: `Merhaba, burada bugüne kadar almış olduğum eğitimler hakkında bilgiler bulacaksınız. Ben Ege Üniversitesi Psikoloji Bölümü mezunuyum. Yüksek lisansımı da Ege Üniversitesi Psikolojik Danışmanlık ve Rehberlik Bölümünde tamamladım.
 
