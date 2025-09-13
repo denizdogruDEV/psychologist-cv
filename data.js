@@ -3,7 +3,7 @@ const cvData = {
   personalInfo: {
     name: "Merve Ulcay",
     title: "Ph.D. Clinical Psychologist",
-    profileImage: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&h=400&fit=crop&crop=face",
+    profileImage: "images/profile.png",
     bio: `Merhaba, burada bugüne kadar almış olduğum eğitimler hakkında bilgiler bulacaksınız. Ben Ege Üniversitesi Psikoloji Bölümü mezunuyum. Yüksek lisansımı da Ege Üniversitesi Psikolojik Danışmanlık ve Rehberlik Bölümünde tamamladım.
 
 Abdülkadir Özbek Psikodrama Dernekleri Federasyonu'nda 948 birim olan psikodrama eğitim sürecini "Psikodramanın Yetişkinlerin Benlik Algısına Ve İdeal Benliğine Etkisi" yeterlilik tezini vererek 2018 yılında bitirdim.`,
