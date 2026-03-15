@@ -138,6 +138,70 @@ Abdülkadir Özbek Psikodrama Dernekleri Federasyonu'nda 948 birim olan psikodra
       { type: "h2", text: "Psikodrama Nasıl Çalışır?" },
       { type: "p", text: "Grup ortamında gerçekleştirilen psikodrama seanslarında..." }
     ]
-  }
+  },
+  {
+  id: 2,
+  title: "Psikodrama Nedir?",
+  date: "15.03.2025",
+  excerpt: "Psikodrama, bireyin yaşadığı deneyimleri sahneye taşıyarak farkındalık kazanmasını sağlayan güçlü bir terapi yöntemidir.",
+  content: [
+    {
+      type: "p",
+      text: "Psikodrama, Avusturyalı psikiyatrist Jacob Levy Moreno tarafından geliştirilen bir grup terapi yöntemidir. Bu yaklaşımda bireyler, yaşamlarında yaşadıkları olayları veya içsel çatışmaları sahne üzerinde canlandırarak ifade ederler. Psikodrama, kişinin yalnızca konuşarak değil; hareket, rol alma ve etkileşim yoluyla duygularını keşfetmesini sağlar."
+    },
+    {
+      type: "p",
+      text: "Geleneksel konuşma terapilerinden farklı olarak psikodrama, deneyimsel bir yöntemdir. Danışanlar yaşadıkları olayları yeniden sahneleyerek farklı bakış açıları geliştirebilir, bastırılmış duygularını fark edebilir ve yeni çözüm yolları deneyimleyebilir."
+    },
+    {
+      type: "h2",
+      text: "Psikodrama Nasıl Çalışır?"
+    },
+    {
+      type: "p",
+      text: "Psikodrama genellikle bir grup ortamında uygulanır ve bir terapist (yönetici) tarafından yönlendirilir. Seans sırasında bir kişi 'protagonist' yani ana karakter olarak seçilir ve üzerinde çalışmak istediği bir konu veya yaşam deneyimi sahnede canlandırılır."
+    },
+    {
+      type: "p",
+      text: "Grubun diğer üyeleri ise protagonistin hayatındaki kişileri, duyguları veya sembolik rolleri canlandırabilir. Bu süreç sayesinde kişi kendi deneyimini dışarıdan görme fırsatı bulur ve olaylara farklı perspektiflerden yaklaşabilir."
+    },
+    {
+      type: "h2",
+      text: "Psikodramada Kullanılan Temel Teknikler"
+    },
+    {
+      type: "p",
+      text: "Psikodrama sürecinde çeşitli teknikler kullanılır. Bunlardan biri 'rol değiştirme' tekniğidir. Bu teknikte kişi, yaşadığı çatışmada karşı tarafın rolüne geçerek onun bakış açısını deneyimler. Bir diğer teknik olan 'ayna tekniği' ise kişinin kendi davranışlarını başka birinin canlandırması sayesinde dışarıdan gözlemlemesini sağlar."
+    },
+    {
+      type: "p",
+      text: "Ayrıca 'boş sandalye' tekniği ile birey, hayatında önemli bir kişiyle konuşuyormuş gibi duygularını ifade edebilir. Bu yöntemler kişinin içsel farkındalığını artırmayı ve duygusal çözülme sağlamayı amaçlar."
+    },
+    {
+      type: "h2",
+      text: "Psikodramanın Faydaları"
+    },
+    {
+      type: "p",
+      text: "Psikodrama; kişinin duygularını ifade etmesini kolaylaştırabilir, empati becerilerini geliştirebilir ve geçmiş deneyimlerin yeniden anlamlandırılmasına yardımcı olabilir. Grup ortamı sayesinde bireyler yalnız olmadıklarını hissedebilir ve farklı yaşam deneyimlerinden öğrenme fırsatı bulabilir."
+    },
+    {
+      type: "p",
+      text: "Bu yöntem özellikle kişilerarası ilişkiler, travmatik deneyimler, özgüven sorunları ve duygusal farkındalık konularında destekleyici bir terapi yaklaşımı olarak kullanılabilir."
+    },
+    {
+      type: "h2",
+      text: "Kimler Psikodramadan Fayda Görebilir?"
+    },
+    {
+      type: "p",
+      text: "Psikodrama, kendini daha iyi tanımak isteyen, duygularını ifade etmekte zorlanan veya geçmiş deneyimlerini anlamlandırmak isteyen bireyler için faydalı olabilir. Aynı zamanda grup çalışmaları aracılığıyla sosyal farkındalık ve empati becerilerini geliştirmek isteyen kişiler için de etkili bir yöntemdir."
+    },
+    {
+      type: "p",
+      text: "Her terapi yaklaşımında olduğu gibi psikodrama da bireyin ihtiyaçlarına göre bir uzman tarafından değerlendirilerek uygulanmalıdır."
+    }
+  ]
+}
 ]
 };
