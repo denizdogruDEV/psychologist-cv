@@ -496,3 +496,8 @@ body {
     color: var(--text-secondary);
     line-height: 1.6;
 }
+
+.blog-card,
+.blog-card * {
+    text-decoration: none;
+}
