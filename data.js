@@ -115,7 +115,9 @@ Abdülkadir Özbek Psikodrama Dernekleri Federasyonu'nda 948 birim olan psikodra
     {
       id: 1,
       title: "Gülemeyen Bir Halkın Portresi: Kendi Duyguna Yabancılaşmak",
-      url: "https://ilkses.com.tr/yasam/gulemeyen-bir-halkin-portresi-kendi-duyguna-yabancilasmak-397174"
+      url: "https://ilkses.com.tr/yasam/gulemeyen-bir-halkin-portresi-kendi-duyguna-yabancilasmak-397174",
+      source: "İlkses Gazetesi",
+      date: "07.04.2025"
     }
   ],
   navigation: [
