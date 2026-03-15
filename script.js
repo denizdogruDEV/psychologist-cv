@@ -27,7 +27,8 @@ function populateHeroSection() {
     profileImage.alt = cvData.personalInfo.name;
     name.textContent = cvData.personalInfo.name;
     title.textContent = cvData.personalInfo.title;
-    
+    document.getElementById('description').textContent = cvData.personalInfo.description;
+
     // Contact information
     const contactItems = [
         {
