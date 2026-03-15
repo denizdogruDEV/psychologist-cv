@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog - Merve Ulcay</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .post-meta {
+            font-size: 0.85rem;
+            color: var(--dark-gray);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 1rem;
+        }
+        .post-title {
+            font-size: 2.5rem;
+            font-weight: 300;
+            color: var(--primary-color);
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 2rem;
+        }
+        .post-cover {
+            width: 100%;
+            max-height: 480px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 3rem;
+        }
+        .post-body {
+            max-width: 720px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-primary);
+        }
+        .post-body p {
+            margin-bottom: 1.5rem;
+        }
+        .post-body h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin: 2.5rem 0 1rem;
+            color: var(--primary-color);
+        }
+        .back-link {
+            display: inline-block;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 3rem 0 2rem;
+            transition: color 0.2s;
+        }
+        .back-link:hover { color: var(--primary-color); }
+        .not-found {
+            padding: 6rem 0;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <a class="logo" href="index.html">Merve Ulcay</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html#home">Ana Sayfa</a></li>
+                    <li><a href="index.html#hakkımda">Hakkımda</a></li>
+                    <li><a href="index.html#education">Eğitim & Sertifikalar</a></li>
+                    <li><a href="index.html#workshops">Atölyeler</a></li>
+                    <li><a href="index.html#experience">Deneyim & Etkinlikler</a></li>
+                    <li><a href="index.html#blog">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container" id="postContainer">
+            <!-- populated by JS -->
+        </div>
+    </main>
+
+    <a href="https://wa.me/905331462662" target="_blank" rel="noopener noreferrer" class="chat-button">
+        💬 Bana Ulaşın
+    </a>
+
+    <script src="data.js"></script>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const id = parseInt(params.get('id'));
+        const post = cvData.blogPosts.find(p => p.id === id);
+        const container = document.getElementById('postContainer');
+
+        if (!post) {
+            container.innerHTML = '<p class="not-found">Yazı bulunamadı.</p>';
+        } else {
+            document.title = `${post.title} - Merve Ulcay`;
+
+            const backLink = `<a href="index.html#blog" class="back-link">← Blog'a Dön</a>`;
+            const meta = `<div class="post-meta">${post.date}</div>`;
+            const title = `<h1 class="post-title">${post.title}</h1>`;
+
+            const body = post.content.map(block => {
+                if (block.type === 'p') return `<p>${block.text}</p>`;
+                if (block.type === 'h2') return `<h2>${block.text}</h2>`;
+                return '';
+            }).join('');
+
+            container.innerHTML = `
+                ${backLink}
+                ${meta}
+                ${title}
+                <article class="post-body">${body}</article>
+            `;
+        }
+    </script>
+</body>
+</html>
