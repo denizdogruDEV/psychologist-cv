@@ -298,21 +298,42 @@ body {
     letter-spacing: -0.025em;
 }
 
-.media-link {
-    display: inline-block;
-    padding: 1rem 2rem;
-    background: var(--primary-color);
-    color: var(--white);
+.media-card {
+    display: block;
+    padding: 1.5rem 2rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 8px;
     text-decoration: none;
-    border-radius: 6px;
-    font-weight: 500;
-    font-size: 0.95rem;
     transition: all 0.2s ease;
+    background: var(--white);
+    max-width: 600px;
 }
 
-.media-link:hover {
-    background: var(--secondary-color);
-    transform: translateY(-1px);
+.media-card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.media-card-source {
+    font-size: 0.8rem;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+}
+
+.media-card-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.media-card-cta {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
 }
 
 /* Chat Button */
