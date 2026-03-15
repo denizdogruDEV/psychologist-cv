@@ -11,7 +11,7 @@ Abdülkadir Özbek Psikodrama Dernekleri Federasyonu'nda 948 birim olan psikodra
 
 Psikodramatist kimliğimle deneyimsel tekniklerden de yararlanarak danışanın ihtiyaçlarına göre eklektik bir yaklaşım benimsiyorum. Amacım, danışanların kendileriyle ve yaşamlarıyla kurdukları ilişkiyi daha fazla farkındalık ve esneklikle yeniden ele alabilecekleri güvenli bir alan sunmaktır.`,
     contact: {
-      email: "dominopsikoloji@gmail.com",
+      email: "Merveulcay.psk@gmail.com",
       phone: "+90 5331462662",
       website: "https://merveulcay.com"
     }
