@@ -241,7 +241,7 @@ body {
 
 /* Experience Section */
 .experience-section {
-    background: var(--background);
+    background: var(--white);
 }
 
 .experience-list {
