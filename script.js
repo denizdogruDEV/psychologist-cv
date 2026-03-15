@@ -168,12 +168,10 @@ function populateBlogSection() {
     const blogGrid = document.getElementById('blogGrid');
 
     cvData.blogPosts.forEach(post => {
-        const card = document.createElement('div');
+        const card = document.createElement('a');
         card.className = 'blog-card';
+        card.href = `blog-post.html?id=${post.id}`;
         card.innerHTML = `
-            <div class="blog-card-image">
-                <img src="${post.image}" alt="${post.title}" />
-            </div>
             <div class="blog-card-body">
                 <div class="blog-card-date">${post.date}</div>
                 <div class="blog-card-title">${post.title}</div>
