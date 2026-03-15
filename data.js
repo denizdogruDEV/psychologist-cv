@@ -126,5 +126,18 @@ Abdülkadir Özbek Psikodrama Dernekleri Federasyonu'nda 948 birim olan psikodra
     { id: "education", label: "Education" },
     { id: "workshops", label: "Workshops" },
     { id: "experience", label: "Experience" }
-  ]
+  ],
+  blogPosts: [
+  {
+    id: 1,
+    title: "Psikodrama Nedir?",
+    date: "15.03.2025",
+    excerpt: "Psikodrama, bireyin yaşadığı deneyimleri sahneye taşıyarak farkındalık kazanmasını sağlayan güçlü bir terapi yöntemidir.",
+    content: [
+      { type: "p", text: "Psikodrama, J.L. Moreno tarafından geliştirilen..." },
+      { type: "h2", text: "Psikodrama Nasıl Çalışır?" },
+      { type: "p", text: "Grup ortamında gerçekleştirilen psikodrama seanslarında..." }
+    ]
+  }
+]
 };
