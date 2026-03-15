@@ -126,13 +126,17 @@ function populateMediaSection() {
     const mediaInterviews = document.getElementById('mediaInterviews');
     
     cvData.mediaInterviews.forEach(interview => {
-        const a = document.createElement('a');
-        a.className = 'media-link';
-        a.href = interview.url;
-        a.target = '_blank';
-        a.rel = 'noopener noreferrer';
-        a.textContent = `Read More`;
-        mediaInterviews.appendChild(a);
+        const card = document.createElement('a');
+        card.className = 'media-card';
+        card.href = interview.url;
+        card.target = '_blank';
+        card.rel = 'noopener noreferrer';
+        card.innerHTML = `
+            <div class="media-card-source">${interview.source} · ${interview.date}</div>
+            <div class="media-card-title">${interview.title}</div>
+            <div class="media-card-cta">Haberi Oku →</div>
+        `;
+        mediaInterviews.appendChild(card);
     });
 }
 
