@@ -128,19 +128,8 @@ Abdülkadir Özbek Psikodrama Dernekleri Federasyonu'nda 948 birim olan psikodra
     { id: "experience", label: "Experience" }
   ],
   blogPosts: [
-  {
-    id: 1,
-    title: "Psikodrama Nedir?",
-    date: "15.03.2025",
-    excerpt: "Psikodrama, bireyin yaşadığı deneyimleri sahneye taşıyarak farkındalık kazanmasını sağlayan güçlü bir terapi yöntemidir.",
-    content: [
-      { type: "p", text: "Psikodrama, J.L. Moreno tarafından geliştirilen..." },
-      { type: "h2", text: "Psikodrama Nasıl Çalışır?" },
-      { type: "p", text: "Grup ortamında gerçekleştirilen psikodrama seanslarında..." }
-    ]
-  },
-  {
-  id: 2,
+    {
+  id: 1,
   title: "Psikodrama Nedir?",
   date: "15.03.2025",
   excerpt: "Psikodrama, bireyin yaşadığı deneyimleri sahneye taşıyarak farkındalık kazanmasını sağlayan güçlü bir terapi yöntemidir.",
@@ -202,6 +191,70 @@ Abdülkadir Özbek Psikodrama Dernekleri Federasyonu'nda 948 birim olan psikodra
       text: "Her terapi yaklaşımında olduğu gibi psikodrama da bireyin ihtiyaçlarına göre bir uzman tarafından değerlendirilerek uygulanmalıdır."
     }
   ]
-}
+},
+   {
+  id: 2,
+  title: "Kaygı Nedir? Kaygıyla Baş Etmenin Yolları",
+  date: "15.03.2025",
+  excerpt: "Kaygı, hayatın doğal bir parçası olsa da yoğunlaştığında günlük yaşamı zorlaştırabilir. Kaygının ne olduğunu ve onunla nasıl baş edilebileceğini keşfedin.",
+  content: [
+    {
+      type: "p",
+      text: "Kaygı, gelecekte olabilecek durumlara karşı zihinsel ve fiziksel olarak hazırlık yapmamızı sağlayan doğal bir duygudur. Belirsizlik, risk veya tehdit algısı olduğunda ortaya çıkabilir. Belirli bir düzeyde kaygı yaşamak oldukça normaldir ve hatta bazen motive edici olabilir."
+    },
+    {
+      type: "p",
+      text: "Ancak kaygı yoğunlaştığında veya uzun süre devam ettiğinde kişinin günlük yaşamını etkileyebilir. Konsantrasyon güçlüğü, sürekli endişe hali, uyku problemleri veya bedensel gerginlik gibi belirtiler ortaya çıkabilir."
+    },
+    {
+      type: "h2",
+      text: "Kaygının Belirtileri Nelerdir?"
+    },
+    {
+      type: "p",
+      text: "Kaygı hem zihinsel hem de fiziksel belirtilerle kendini gösterebilir. Zihinsel belirtiler arasında sürekli düşünme, olumsuz senaryolar kurma ve kontrol kaybı hissi bulunabilir."
+    },
+    {
+      type: "p",
+      text: "Fiziksel belirtiler ise kalp çarpıntısı, kas gerginliği, mide rahatsızlıkları, hızlı nefes alma veya huzursuzluk şeklinde ortaya çıkabilir. Bu belirtiler kişinin stresli durumlara karşı verdiği doğal tepkilerin bir parçasıdır."
+    },
+    {
+      type: "h2",
+      text: "Kaygı Neden Ortaya Çıkar?"
+    },
+    {
+      type: "p",
+      text: "Kaygının ortaya çıkmasında birçok faktör rol oynayabilir. Yoğun stres, yaşam değişiklikleri, geçmiş deneyimler veya belirsizlik duygusu kaygıyı tetikleyebilir. Ayrıca kişilik özellikleri ve öğrenilmiş düşünce kalıpları da kaygı düzeyini etkileyebilir."
+    },
+    {
+      type: "p",
+      text: "Bazı kişiler belirsizlik karşısında daha hassas olabilir ve kontrol edemedikleri durumlar karşısında daha fazla kaygı yaşayabilirler. Bu durum oldukça yaygındır ve anlaşılabilir bir insan deneyimidir."
+    },
+    {
+      type: "h2",
+      text: "Kaygıyla Baş Etmenin Yolları"
+    },
+    {
+      type: "p",
+      text: "Kaygıyı tamamen ortadan kaldırmak mümkün olmayabilir ancak onunla daha sağlıklı bir şekilde baş etmek mümkündür. Nefes egzersizleri, düzenli fiziksel aktivite ve günlük rutin oluşturmak kaygı düzeyini dengelemeye yardımcı olabilir."
+    },
+    {
+      type: "p",
+      text: "Ayrıca düşünceleri fark etmek ve onları sorgulamak da önemli bir adımdır. Zihnin ürettiği olumsuz senaryoların her zaman gerçeği yansıtmadığını fark etmek, kaygının yoğunluğunu azaltabilir."
+    },
+    {
+      type: "h2",
+      text: "Ne Zaman Destek Alınmalı?"
+    },
+    {
+      type: "p",
+      text: "Kaygı günlük yaşamı, ilişkileri veya iş hayatını belirgin şekilde etkilemeye başladığında bir uzmandan destek almak faydalı olabilir. Psikolojik danışmanlık süreci, kişinin kaygıyı daha iyi anlamasına ve baş etme becerileri geliştirmesine yardımcı olabilir."
+    },
+    {
+      type: "p",
+      text: "Profesyonel destek almak, kişinin kendini daha iyi tanımasına ve duygusal denge kurmasına yardımcı olan önemli bir adımdır."
+    }
+  ]
+} 
 ]
 };
